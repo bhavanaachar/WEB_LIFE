@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* input[type]{
+            background-color:burlywood;
+        } */
+        /* input[type="text"]{
+            background-color: red;
+        } */
+        /* input[type="mail"]{
+            background-color: cadetblue;
+        } */
+        /* input[lang |="en"]{
+            background-color: chocolate;
+        } */
+        a[href $=".in"]{
+            color: red;
+        }
+        a[href $=".com"]{
+            color: green;
+        }
+        input[placeholder *='your']{
+            background-color: cadetblue;
+        }
+    </style>
+ </head>
+ <body>
+    <form action="">
+        <label for="">Username:</label>
+        <input type="text" placeholder="Enter your name" lang="en-us"><br><br>
+        <label for="">User Email:</label>
+        <input type="mail" placeholder="Enter your email"><br><br>
+        <button>Submit</button><br>
+
+    </form>
+    <a href="https:www.google.com">Google</a>
+    <a href="http:www.xyz.in">XYZ</a>
+
+</body>
+</html>

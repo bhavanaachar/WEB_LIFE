@@ -1,0 +1,26 @@
+.box {
+
+    /* margin: Sets space outside the element on all four sides */
+    margin: 20px;
+
+    /* margin-top: Sets space outside the top side */
+    margin-top: 30px;
+
+    /* margin-right: Sets space outside the right side */
+    margin-right: 40px;
+
+    /* margin-bottom: Sets space outside the bottom side */
+    margin-bottom: 30px;
+
+    /* margin-left: Sets space outside the left side */
+    margin-left: 40px;
+
+    /* border: Adds a border around the element */
+    border: 2px solid black;
+
+    /* padding: Sets space between content and border */
+    padding: 20px;
+
+    /* width: Sets the width of the element */
+    width: 300px;
+}

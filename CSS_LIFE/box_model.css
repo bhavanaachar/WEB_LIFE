@@ -1,0 +1,20 @@
+.box {
+
+    /* width: Sets the width of the content area */
+    width: 300px;
+
+    /* height: Sets the height of the content area */
+    height: 150px;
+
+    /* padding: Sets space between content and border */
+    padding: 20px;
+
+    /* border: Creates a boundary around the padding and content */
+    border: 5px solid black;
+
+    /* margin: Sets space outside the border */
+    margin: 30px;
+
+    /* box-sizing: Controls how width and height are calculated */
+    box-sizing: border-box;
+}

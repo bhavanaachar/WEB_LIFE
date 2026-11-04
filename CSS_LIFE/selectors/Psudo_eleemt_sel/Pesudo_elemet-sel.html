@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1::first-letter{
+            font-size: 150px;
+            color: red;
+        }
+        p::first-line{
+            color: blue;
+        }
+        P::before{
+            content: "Hii";
+            font-size: 40px;
+        }
+        p::after{
+            content: "bye";
+            font-size: 50px;
+        }
+
+        p::selection{
+            background-color: beige;
+            color: black;
+        }
+        li::marker{
+            content: "❤️";
+        }
+        input::placeholder{
+            color: chocolate;
+        }
+    </style>
+
+ </head>
+ <body>
+    <form action="">
+        <input type="text" placeholder="Enter your name">
+    </form>
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+        <li>list 5</li>
+    </ul>
+    <h1>Rockey</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Magni ea molestias, voluptatum distinctio minima consequuntur at libero natus ratione modi numquam quas ipsa ducimus 
+        labore aperiam cum sapiente delectus. Esse.</p>
+ </body>
+ </html>

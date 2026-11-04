@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Combinators</title>
+
+    <style>
+        /* Descendant Combinator */
+        .descendant li,p {
+            background-color: blue;
+            color: white;
+        }
+
+        /* Child Combinator */
+        .child > p {
+            background-color: blue;
+            color: white;
+        }
+
+        /* Adjacent Sibling Combinator */
+        h2+p{
+            background-color: blue;
+            color:white;
+        }
+
+        /* General Sibling Combinator */
+        h3 ~ p {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Descendant Combinator</h1>
+
+    <div class="descendant">
+        <p>Child</p>
+    </div>
+
+    <div class="descendant">
+        <p>Child</p>
+        <ul>
+            <li>Descendant</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <h1>Child Combinator</h1>
+
+    <div class="child">
+        <p>Child</p>
+    </div>
+
+    <div class="child">
+        <p>Child</p>
+        <ul>
+            <li>Descendant</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <h1>Adjacent Sibling Combinator</h1>
+    <p>First sibling after heading</p>
+    <h5>Second sibling after heading</h5>
+
+    <hr>
+    <h1>General Sibling Combinator</h1>
+    <p>First sibling after heading</p>
+    <p>Second sibling after heading</p>
+
+</body>
+</html>

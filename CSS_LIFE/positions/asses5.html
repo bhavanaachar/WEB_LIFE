@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sticky Chatbot</title>
+
+    <style>
+
+        body {
+            margin: 0;
+        }
+
+        .page1 {
+            height: 100vh;
+            border: 3px solid black;
+        }
+
+        .page2 {
+            height: 100vh;
+            border: 3px solid black;
+        }
+
+        .page3 {
+            height: 100vh;
+            border: 3px solid black;
+        }
+
+        .page4 {
+            height: 100vh;
+            border: 3px solid black;
+        }
+
+        /* Chatbot */
+
+        .chat-container {
+            position: sticky;
+            top: 20px;
+
+            margin-left: auto;
+            margin-right: 20px;
+
+            width: 250px;
+
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .help-message {
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 20px;
+
+            padding: 10px;
+        }
+
+        .chatbot {
+            height: 70px;
+            width: 70px;
+        }
+
+        .chatbot img {
+            height: 70px;
+            width: 70px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="page1">
+        <h1>PAGE 1</h1>
+    </div>
+
+
+    <div class="page2">
+        <h1>PAGE 2</h1>
+    </div>
+
+
+    <div class="page3">
+        <h1>PAGE 3</h1>
+    </div>
+
+
+    <div class="page4">
+
+        <h1>PAGE 4</h1>
+
+        <div class="chat-container">
+
+            <div class="help-message">
+                May I help you?
+            </div>
+
+            <div class="chatbot">
+                <img src="https://assets-v2.lottiefiles.com/a/decf4a3e-f47e-11ef-9a9d-2386c1245eb1/LY89s3JCNl.gif">
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

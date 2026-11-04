@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+
+}
+.mainNav{
+    width: 100vw;
+    height: 70px;
+    background-color: purple;
+    border-bottom: 2px solid;
+}
+
+.leftNav{
+    width: 50vw;
+    height: 100%;
+    background-color: crimson;
+    display: inline-block;
+}
+.rightNav{
+    width: 50vw;
+    height: 100%;
+    background-color: red;
+    display: inline-block;
+}

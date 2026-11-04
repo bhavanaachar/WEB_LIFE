@@ -1,0 +1,23 @@
+.text {
+
+    /* font-family: Specifies the typeface/font */
+    font-family: Arial, sans-serif;
+
+    /* font-size: Sets the size of the text */
+    font-size: 30px;
+
+    /* font-weight: Sets the thickness of the text */
+    font-weight: bold;
+
+    /* font-style: Specifies the style of the font */
+    font-style: italic;
+
+    /* font-variant: Controls the appearance of small capital letters */
+    font-variant: small-caps;
+
+    /* font-stretch: Controls the width of the font */
+    font-stretch: expanded;
+
+    /* font: Shorthand property for font properties */
+    font: italic bold 30px Arial, sans-serif;
+}

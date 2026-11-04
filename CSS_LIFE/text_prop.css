@@ -1,0 +1,29 @@
+.text {
+
+    /* color: Changes the color of the text */
+    color: blue;
+
+    /* text-align: Aligns the text horizontally */
+    text-align: center;
+
+    /* text-decoration: Adds decoration to the text */
+    text-decoration: underline;
+
+    /* text-transform: Changes the case of the text */
+    text-transform: uppercase;
+
+    /* text-indent: Gives space before the first line of text */
+    text-indent: 50px;
+
+    /* letter-spacing: Sets the space between letters */
+    letter-spacing: 2px;
+
+    /* word-spacing: Sets the space between words */
+    word-spacing: 10px;
+
+    /* line-height: Sets the space between lines */
+    line-height: 2;
+
+    /* text-shadow: Adds a shadow effect to the text */
+    text-shadow: 2px 2px 5px gray;
+}

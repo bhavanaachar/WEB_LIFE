@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetch Products</title>
+</head>
+
+<body>
+
+    <h1>Product Details</h1>
+
+    <button onclick="getProducts()">
+        Get Products
+    </button>
+
+    <div id="result"></div>
+
+    <script>
+        function getProducts() {
+
+            document.getElementById("result").textContent =
+                "Loading products...";
+
+            fetch("https://dummyjson.com/products")
+                .then(function(response) {
+                    if (!response.ok) {
+                        throw new Error("Failed to fetch data");
+                    }
+                    return response.json();
+                })
+                .then(function(data) {
+
+                    let output = "";
+
+                    data.products.forEach(function(product) {
+
+                        output += `
+                            <div>
+                                <h3>${product.title}</h3>
+                                <p>Price: $${product.price}</p>
+                                <hr>
+                            </div>
+                        `;
+
+                    });
+
+                    document.getElementById("result").innerHTML =
+                        output;
+
+                })
+                .catch(function(error) {
+                    document.getElementById("result").textContent =
+                        "Error loading products.";
+                    console.log(error);
+                });
+
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+.box {
+
+    /* padding: Sets space between the content and border on all sides */
+    padding: 20px;
+
+    /* padding-top: Sets space between content and the top border */
+    padding-top: 30px;
+
+    /* padding-right: Sets space between content and the right border */
+    padding-right: 40px;
+
+    /* padding-bottom: Sets space between content and the bottom border */
+    padding-bottom: 30px;
+
+    /* padding-left: Sets space between content and the left border */
+    padding-left: 40px;
+
+    /* border: Adds a visible border around the padding and content */
+    border: 2px solid black;
+
+    /* width: Sets the width of the element */
+    width: 300px;
+}

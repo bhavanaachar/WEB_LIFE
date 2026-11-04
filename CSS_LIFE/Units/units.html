@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Relative Units</title>
+
+    <style>
+        html {
+            font-size: 16px;
+        }
+
+        .container {
+            width: 80%;
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .em-box {
+            font-size: 20px;
+            width: 10em;
+            background-color: lightpink;
+            padding: 1em;
+        }
+
+        .rem-box {
+            width: 15rem;
+            font-size: 1.5rem;
+            background-color: lightblue;
+            padding: 1rem;
+        }
+
+        .percent-box {
+            width: 50%;
+            background-color: lightgreen;
+        }
+
+        .vw-box {
+            width: 50vw;
+            background-color: lightyellow;
+        }
+
+        .vh-box {
+            height: 20vh;
+            background-color: lightcoral;
+        }
+
+        .vmin-box {
+            width: 20vmin;
+            background-color: lavender;
+        }
+
+        .vmax-box {
+            width: 20vmax;
+            background-color: lightgray;
+        }
+
+        .ch-box {
+            width: 20ch;
+            background-color: peachpuff;
+        }
+
+        .ex-box {
+            font-size: 30px;
+            width: 10ex;
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS Relative Units</h2>
+
+    <div class="container">
+        <p>Container: 80%</p>
+
+        <div class="em-box">10em width</div>
+        <br>
+
+        <div class="rem-box">15rem width</div>
+        <br>
+
+        <div class="percent-box">50% width</div>
+        <br>
+
+        <div class="vw-box">50vw width</div>
+        <br>
+
+        <div class="vh-box">20vh height</div>
+        <br>
+
+        <div class="vmin-box">20vmin</div>
+        <br>
+
+        <div class="vmax-box">20vmax</div>
+        <br>
+
+        <div class="ch-box">20ch width</div>
+        <br>
+
+        <div class="ex-box">10ex width</div>
+    </div>
+</body>
+</html>

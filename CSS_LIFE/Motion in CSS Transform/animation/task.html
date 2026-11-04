@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Earth Orbit</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: radial-gradient(circle, #101a30, #000000 75%);
+            overflow: hidden;
+        }
+
+        .mainbox {
+            height: 500px;
+            width: 500px;
+            border: 3px solid #73caff;
+            border-radius: 50%;
+            position: relative;
+
+            /* Orbit shadow */
+            box-shadow:
+                0 0 10px #00aaff,
+                0 0 25px #0088ff,
+                0 0 50px #0055ff,
+                inset 0 0 15px #0088ff;
+
+            animation: orbit 6s infinite linear;
+        }
+
+        .childbox {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            /* Earth color */
+            background: radial-gradient(
+                circle at 30% 25%,
+                #fff9a6,
+                #ffcc00 35%,
+                #ff8800 75%,
+                #b34b00
+            );
+
+            border: 2px solid #fff3a0;
+
+            /* Earth glow and shadow */
+            box-shadow:
+                0 0 10px #ffff00,
+                0 0 25px #ffcc00,
+                0 0 45px #ff9900,
+                inset -8px -8px 15px rgba(100, 30, 0, 0.6),
+                inset 5px 5px 12px white;
+        }
+
+        @keyframes orbit {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="mainbox">
+        <div class="childbox"></div>
+    </div>
+
+</body>
+</html>

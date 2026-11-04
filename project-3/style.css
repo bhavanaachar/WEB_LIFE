@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    font-family: Arial, sans-serif;
+}
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.child-container{
+    width: 900px;
+    height: 520px;
+    background: #eeeeee;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+}
+.nav-links button{
+    background:black;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    font-size: 9px;
+    border-radius: 3px;
+}
+.main-heading{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h1{
+    font-size: 78px;
+    line-height: 0.9;
+    letter-spacing: -6px;
+    font-weight: 400;
+}
+.skills{
+    width: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 30px;
+}
+.skills span{
+    border: 1px solid #555;
+    border-radius: 20px;
+    padding: 4px 8px;
+    font-size: 8px;
+}
+.description{
+    position: absolute;
+    left: 20px;
+    bottom: 35px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.25;
+}
+.booking{
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+    width: 190px;
+}
+.booking p{
+    font-size: 8px;
+    margin-bottom: 8px;
+}
+.booking img{
+    width: 190px;
+    height: 120px;
+    object-fit: cover;
+}
+.booking button {
+    margin-top: 7px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    font-size: 8px;
+    float: right;
+}
+
+

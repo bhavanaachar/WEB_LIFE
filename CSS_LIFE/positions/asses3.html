@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Position Practice</title>
+
+    <style>
+        .outer {
+            width: 600px;
+            height: 500px;
+            border: 3px solid black;
+
+            position: relative;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+
+            position: absolute;
+        }
+
+        /* Top Left */
+        .box1 {
+            top: 0;
+            left: 0;
+        }
+
+        /* Top Right */
+        .box2 {
+            top: 0;
+            right: 0;
+        }
+
+        /* Bottom Left */
+        .box3 {
+            bottom: 0;
+            left: 0;
+        }
+
+        /* Bottom Right */
+        .box4 {
+            bottom: 0;
+            right: 0;
+        }
+
+        /* Center */
+        .box5 {
+            top: 200px;
+            left: 250px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="outer">
+
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+
+    </div>
+
+</body>
+
+</html>

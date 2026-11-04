@@ -1,0 +1,51 @@
+#box1{
+    height: 400px;
+    width: 400px;
+    border-width: 2px;
+    /* It will specify any width of the border. It can take any values */
+
+    border-style: solid;
+    /* It will specify the style of box border */
+    /* values: none(d), solid, dotted, dashed, double, groove, ridge */
+
+    border-color: blue;
+    /* It will specify the color of the border */
+    /* values: black(d), any colour */
+
+    border: 2px solid blue;
+    border: 5px dashed crimson;
+
+    border-top: 5px dashed purple;
+    border-bottom: 2px solid pink;
+    border-right: 7px dashed red;
+    border-left: 4px groove green;
+}
+#box2{
+    height: 400px;
+    width: 400px;
+    border: 5px solid purple;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+
+    /* set of 4 values */
+    border-radius: 10px 20px 30px 40px;
+    /*             t-l  t-r  b-r  b-l */
+
+    /* set of 3 values */
+    border-radius:10px 20px 30px ;
+    /*            t-l  t-r& b-l b-r */
+
+    /*set of 2 values  */
+    border-radius: 10px 20px;
+    /*             t-l&b-r t-r&b-l */
+
+    /* set of 1 values */
+    border-radius: 10px;
+    /*             t-l&t-r&b-l&b-r */
+}
+/* table{
+    border-spacing: 50px;
+    border-collapse: collapse;
+} */
