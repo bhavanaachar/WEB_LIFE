@@ -27,11 +27,11 @@
 // //console.log(Array.isArray(data));
 // if(Array.isArray(data)){
 //     console.log("Data received is in the form of array");
-    
+
 // }
 // else{
 //     console.log("Data received is not array");
-    
+
 // }
 
 //array.of(): 
@@ -126,26 +126,93 @@
 // let arr=[10,20,30,40,50]
 // for(let x of arr.entries()){
 //     console.log(x);
-    
+
 // }
 
 //14. keys(): it is used to print only keys 
 // let arr=[10,20,30,40,50]
 // for(let x of arr.keys()){
 //     console.log(x);
-    
+
 // }
 
 //15. values(): It is used to print only values
 // let arr=[10,20,30,40,50]
 // for(let x of arr.values()){
-//     console.log(x);
-    
+//     console.log(x); 
 // }
 
 //16. every(): tests whether all elements in array passes the test implemented 
 // let arr=[2,4,6,8] 
 // console.log(arr.every((num)=>num%2==0));  //true
+
+//17.some(): tests whether some elements in array passes the test implemented
+// let array=[1,2,3,4,5,6,7]
+// console.log(array.some((num)=>num>6));  //true
+
+//18. fill(): Fills all elements in an array with a static value from starting to ending index.It modifies the original array
+// let arr=[1,2,3,4,5,6,7]
+// console.log(arr.fill("somu",0,4));
+// console.log("Original array:",arr);
+
+//19. find(): returns the first element in array that satisfies the provided testing function
+//let arr=[1,2,3,4,5,6,2]
+//console.log("First Element:",arr.find((num)=>num%2==0));   //2
+
+//20. findIndex(): Returns the index of first element which satisfies the provided condition
+//let arr=[1,2,3,4,5,6,2]
+//console.log("Fisrt element index:", arr.findIndex((num)=>num%2==0));   //1
+
+//21. findlastIndex(): Returns the last index of element which satisfies the condition
+//let arr=[1,2,3,4,5,6,2]
+//console.log("Last Element index:",arr.findLastIndex((num)=>num%2==0));  //6
+
+//22. flat: converts all the nested array into single array
+// let data = [1, 2, 3, 4, [10, 20, 30, 40, [5, 10, 15, 20,[100,200]]]]
+// console.log(data.flat(3));      //[1,  2,  3, 4, 10 ,20, 30, 40, 5, 10, 15, 20,100,200]
+
+// console.log(data.flat(Infinity));    //[1,  2,  3, 4, 10 ,20, 30, 40, 5, 10, 15, 20,100,200]
+
+
+//23.toReversed(): It will be reversing the array and  not modify the original array
+// let data=[1,2,3,4,5]
+// console.log(data.toReversed());  //[5,4,3,2,1]
+// console.log(data);   //[1,2,3,4,5]
+
+//24. toSpliced():
+// let data=[1,2,3,4,5,6]
+// console.log(data.toSpliced());  //[1,2,3,4,5,6]
+// console.log(data);  //[1,2,3,4,5,6]
+
+//25. sort(): sorts the elements of zn array and it modifies the original string
+// let arr=[1,8,9,3,2]
+// console.log(arr.sort());  //[1,2,3,8,9]
+// console.log("original array:",arr);  //[1,8,9,3,2]
+
+
+// console.log(arr.sort()); 
+// console.log(arr.sort((a, b) => a - b));   //[1,3,8,10,20]  ascending order: a-b , descending order: b-a
+//if the difference is evaluated to positive, swap a and b, if the difference is negative dont swap
+let arr = [1, 8, 3, 10, 20];
+
+console.log(arr.sort(function(a, b) {
+    console.log("a = " + a + "  b = " + b);
+    return a - b;
+}));
+
+
+
+//26.tosorted(): sorts the array and dosent modifies the original array
+//let arr=[1,8,9,3,2]
+//console.log(arr.toSorted());  //[1,2,3,8,9]
+
+
+
+
+
+
+
+
 
 
 
