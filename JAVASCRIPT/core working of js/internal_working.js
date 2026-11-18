@@ -108,21 +108,22 @@
 
 //example
 
-let data1="somu"
-function outerFunction(){
-    let data2="rani"
-    function innerFunction(){
-        let data3="raja"
-        console.log(data1);
-        console.log(data2);
-        console.log(data3);
+// let data1="somu"
+// function outerFunction(){
+//     let data2="rani"
+//     function innerFunction(){
+//         let data3="raja"
+//         console.log(data1);
+//         console.log(data2);
+//         console.log(data3);
            
-    }
-    innerFunction()
-}
-outerFunction()
+//     }
+//     innerFunction()
+// }
+// outerFunction()
 
 //output:
 // somu
 // rani
 // raja
+
