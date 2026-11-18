@@ -182,3 +182,122 @@
 // friend1.greet();
 // friend5.greet();
 // friend10.greet();
+
+//ways to create a object
+//1. using object literal
+//2. using object constructor
+
+//1. using object literal:
+//syntax:
+// let obj={
+//     key:value,
+//     key:value,
+//     key:value
+// }
+//example:
+// let student={
+//     name:"somu",
+//     age:22,
+//     rollno:12
+// }
+
+//ways to acess object properties
+//1. using dot notation
+//2. using square brackets
+
+//1. dot notation
+// console.log(student.name);  //somu
+// console.log(student.age);   //22
+// console.log(student.rollno); //12
+//console.log(student); //{ name: 'somu', age: 22, rollno: 12 }
+
+//2. using square brackets: it is used for dynamic access
+// console.log(student["name"]); //somu
+// console.log(student["age"]);  //22
+// console.log(student["rollno"]); //12
+
+//example 2
+
+// Creating an object
+// var emp = {
+//     name: "somu",
+//     age: 22,
+//     isLoggedIn: true,
+
+//     reading: function () {
+//         console.log("Somu is reading");
+//     },
+
+//     sleeping: function () {
+//         console.log("Somu is sleeping");
+//     },
+
+//     favColour: ["red", "green", "blue"],
+
+//     address: {
+//         city: "pune",
+//         pincode: 12345
+//     },
+
+//     // Property with space
+//     "is LoggedIn": true,
+
+//     // Properties with special characters
+//     "@email": "somu@gmail.com",
+//     "emp-id": 101,
+
+//     // Number as key
+//     1: "Developer"
+// };
+
+
+// // Accessing methods
+// emp.sleeping(); // somu is sleeping
+
+// // Accessing array
+// console.log(emp.favColour);    // [ 'red', 'green', 'blue' ]
+// console.log(emp.favColour[1]); // green
+
+// // Accessing nested object
+// console.log(emp.address.pincode); // 12345
+
+
+// // Advantages of using square brackets
+
+
+// // 1. Dynamic accessing of data
+// let key = "name";
+// console.log(emp[key]); // somu
+
+
+// // 2. If property name consists of space
+// console.log(emp["is LoggedIn"]); // true
+
+
+// // 3. If property name consists of special characters
+// console.log(emp["@email"]); // somu@gmail.com
+// console.log(emp["emp-id"]); // 101
+
+
+// // 4. Numbers as key
+// console.log(emp[1]);   // Developer
+// console.log(emp["1"]); // Developer
+
+//Updating the properties of object
+// let data={
+//     name:"somu",
+//     age:21,
+//     flag:true
+// }
+// adding new property
+// data.luckyNo=3
+// console.log(data);
+
+// updating 
+// data.age=22
+// console.log(data);
+
+// deleting
+// delete data.flag
+// console.log(data);
+
