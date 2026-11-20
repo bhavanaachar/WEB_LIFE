@@ -1,4 +1,4 @@
-// object methods
+// objectmethods
 
 //keys: It is used to acess keys of object
 // let data={
