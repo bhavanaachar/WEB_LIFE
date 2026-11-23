@@ -22,12 +22,12 @@
 
 //object destructuring
 
-let userdata={
-    first_name:"somu",
-    last_name:"raj",
-    age:49,
-    isLoggedIn:true
-}
+// let userdata={
+//     first_name:"somu",
+//     last_name:"raj",
+//     age:49,
+//     isLoggedIn:true
+// }
 
 // let {first_name,isLoggedIn,last_name}=userdata
 
@@ -37,13 +37,13 @@ let userdata={
 
 // console.log(last_name);  //raj
 
-let {first_name:fn,isLoggedIn:is,last_name:ln}=userdata
+// let {first_name:fn,isLoggedIn:is,last_name:ln}=userdata
 
-console.log(fn);  //somu
+// console.log(fn);  //somu
 
-console.log(is);  //true
+// console.log(is);  //true
 
-console.log(ln);  //raj
+// console.log(ln);  //raj
 
 
 
