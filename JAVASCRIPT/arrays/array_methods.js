@@ -193,12 +193,12 @@
 // console.log(arr.sort()); 
 // console.log(arr.sort((a, b) => a - b));   //[1,3,8,10,20]  ascending order: a-b , descending order: b-a
 //if the difference is evaluated to positive, swap a and b, if the difference is negative dont swap
-let arr = [1, 8, 3, 10, 20];
+// let arr = [1, 8, 3, 10, 20];
 
-console.log(arr.sort(function(a, b) {
-    console.log("a = " + a + "  b = " + b);
-    return a - b;
-}));
+// console.log(arr.sort(function(a, b) {
+//     console.log("a = " + a + "  b = " + b);
+//     return a - b;
+// }));
 
 
 

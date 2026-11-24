@@ -62,26 +62,26 @@
 
 //closures
 
-// function outerFunction(){
-//     console.log("Outer Function has started");
+function outerFunction(){
+    console.log("Outer Function has started");
     
-//     let outerFunData=10
-//     function innerFunction(){
-//         console.log("Inner function has started");
+    let outerFunData=10
+    function innerFunction(){
+        console.log("Inner function has started");
         
-//         console.log("Accessing outerFunction data:",outerFunData);
+        console.log("Accessing outerFunction data:",outerFunData);
 
-//         console.log("Inner function has ended");
+        console.log("Inner function has ended");
         
         
-//     }
-//     console.log("Outer function has ended");
+    }
+    console.log("Outer function has ended");
     
-//     return innerFunction
+    return innerFunction
     
-// }
-// let res=outerFunction()
-// res()
+}
+let res=outerFunction()
+res()
 
 
 
