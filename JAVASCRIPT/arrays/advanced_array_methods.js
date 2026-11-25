@@ -5,12 +5,15 @@
 //let array=[1,2,3,4,5,6]
 
 // for(let i=0;i<array.length;i++){
+
 //     console.log(array[i]);
     
 // }
 
 // function mul(x){
+
 //     return x*5
+
 // }
 // let newArr=array.map(mul)
 
@@ -24,6 +27,7 @@
 // function cube(x){
 //     return x**3
 // }
+
 //  let newArr=arr.map(cube)
 
 // console.log("Nwe array:", newArr);
@@ -31,6 +35,7 @@
 // console.log("Original array:",arr);
 
 // let newArr=arr.map(x=>x**3)
+
 // console.log(newArr);
 
 //filter():It filters the array based on some condition. If the condition is evaluated o true , that value is added to collection, else that value will be rejected
@@ -47,24 +52,28 @@
 // let len=arr.filter((value)=>{
 //     return value.length>5
 // })
+
 // console.log(len);
 
 //  arr=["javascript","Python","vaish","Rahul","Riya"]
 //  let startsWith=arr.filter((value)=>{
 //     return value.startsWith("R")
 //  })
+
 //  console.log(startsWith);
  
 // let arr=[" "," ","python"]
 // let validString=arr.filter((value)=>{
 //     return value!==(" ")
 // })
+
 // console.log(validString);
 
 // let arr=["vaish","raju","lxmi","deepthi"]
 // let Alphabet=arr.filter((value)=>{
 //     return value.includes("a")
 // })
+
 // console.log(Alphabet);
 
 // let arr = [25, 55, 40, 60, 85]
@@ -88,11 +97,13 @@
 // let newData=data.reduce((acc,x)=>{
 //     return acc+x
 // },100)
+
 // console.log(newData);
 
 
 //sum of all even numbers
-let data = [1,2,3,4,5,6,7,8,9,10]
+
+//let data = [1,2,3,4,5,6,7,8,9,10]
 
 // let even = data.filter((value) => {
 //     return value % 2 == 0
@@ -101,7 +112,6 @@ let data = [1,2,3,4,5,6,7,8,9,10]
 // let res = even.reduce((sum, value) => {
 //     return sum + value
 // }, 0)
-
 // console.log(even);
 // console.log("Sum of even numbers:",res);
 
@@ -111,6 +121,33 @@ let data = [1,2,3,4,5,6,7,8,9,10]
 
 
 //count of odd numbers in array
+
+// const arr = [1, 2, 3, 4, 5, 6, 7];
+
+// const countOdds = arr.filter(n => n % 2 !== 0).length;
+
+// console.log(countOdds); // 4  (1, 3, 5, 7)
+
 //sum of squares of elementss
+
+// const arr = [1, 2, 3, 4];
+
+// const sumOfSquares = arr.reduce((sum, n) => sum + n * n, 0);
+
+// console.log(sumOfSquares); // 30  (1 + 4 + 9 + 16)
+
 //count how many numbers are divisble by 2 and 3 both
+
+// const arr = [2, 3, 6, 9, 12, 15, 18];
+
+// const count = arr.filter(n => n % 2 === 0 && n % 3 === 0).length;
+
+// console.log(count); // 3  (6, 12, 18)
+
 //find total number of chraecter in given strings
+
+// const strings = ["hello", "world", "js"];
+
+// const totalChars = strings.reduce((total, s) => total + s.length, 0);
+
+// console.log(totalChars); // 12  (5 + 5 + 2)
